@@ -15,19 +15,17 @@ icons = [
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944287155541377024/wp10676383-glitchcore-pfp-wallpapers.jpg', 'tag':'GlitchCore'},
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944287489361842287/wp10676392-glitchcore-pfp-wallpapers.jpg', 'tag':'GlitchCore'},
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944288105018568714/wp10676397-glitchcore-pfp-wallpapers.jpg', 'tag':'GlitchCore'},
+  {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944344893894037564/72627cbe125003ce7cedf877e1d7766e.jpg', 'tag':'Cute'},
+  {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944347118439632966/da211cf5639920f355188751c8ed85ec.jpg', 'tag':'Cute'},
+  {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944347359083642990/original.jpg', 'tag':'Cute'},
+  {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944347581394346064/632bc775395dc918cc5dda07293a9013.jpg', 'tag':'Gothic'},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
-  // {'link':'', 'tag':''},
-  // {'link':'', 'tag':''},
-  // {'link':'', 'tag':''},
-  // {'link':'', 'tag':''},
-
 ]
-
 function icons1() {
     let aux = ""
     icons.forEach(value => {
@@ -39,6 +37,7 @@ function icons1() {
       </a>`
       document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
+
 icons1()
 
 function GlitchCore() {

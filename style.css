@@ -65,7 +65,7 @@ header{
       background-color: #333238;
   }
   to{
-    background-color: rgb(255, 0, 170);
+    background-color: pink;
   }
 }
 @keyframes color-Gothic{
@@ -84,7 +84,7 @@ header{
   animation-direction: alternate;
 }
 .taglinkCute:hover{
-  background-color: rgb(255, 0, 170);
+  background-color: pink;
   animation: color-Cute 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -101,7 +101,6 @@ header{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 .imglink{
   border: 8px solid #1d1d20;
