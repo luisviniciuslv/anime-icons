@@ -50,12 +50,14 @@ header{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 .imglink{
   border: 8px solid #1d1d20;
   border-radius: 5px;
   width: 256px;
   height: 256px;
+  /*cursor: pointer;*/
 }
 .imgitem{
   padding: 5px;
