@@ -10,9 +10,22 @@ icons = [
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944140262232440843/d662395813e4bfb309e1598b89f89291.jpg', 'tag':'GlitchCore'},
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944140502972919828/3e373ecc3d55a6615e52aee81327c0af.jpg', 'tag':'GlitchCore'},
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944140977176731698/70860521a2d611477f60a3c11b070ed3.jpg', 'tag':'GlitchCore'},
+  {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944286562173223002/wp10676174-glitchcore-pfp-wallpapers.png', 'tag':'GlitchCore'},
+  {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944286918336725002/wp10676363-glitchcore-pfp-wallpapers.jpg', 'tag':'GlitchCore'},
+  {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944287155541377024/wp10676383-glitchcore-pfp-wallpapers.jpg', 'tag':'GlitchCore'},
+  {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944287489361842287/wp10676392-glitchcore-pfp-wallpapers.jpg', 'tag':'GlitchCore'},
+  {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944288105018568714/wp10676397-glitchcore-pfp-wallpapers.jpg', 'tag':'GlitchCore'},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
+  // {'link':'', 'tag':''},
+  // {'link':'', 'tag':''},
+  // {'link':'', 'tag':''},
+  // {'link':'', 'tag':''},
+  // {'link':'', 'tag':''},
+  // {'link':'', 'tag':''},
+  // {'link':'', 'tag':''},
+
 ]
 
 function icons1() {
