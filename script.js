@@ -1,5 +1,5 @@
 icons = [
-  {'link':'https://media.discordapp.net/attachments/916375412949528618/944127895557795860/bc227b46acba4458a9eca0ef73d95d50.jpg', 'tag':'GlitchCore'},
+  {'link':'https://media.discordapp.net/attachments/916375412949528618/944127895557795860/bc227b46acba4458a9eca0ef73d95d50.jpg', 'tag':['GlitchCore']},
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944132948976865381/wp10229075.jpg', 'tag':'Gothic'},
   {'link': 'https://cdn.discordapp.com/attachments/916375412949528618/944135905168474142/wp10229051-dark-anime-icons-wallpapers.jpg', 'tag':'Gothic'},
   {'link':'https://cdn.discordapp.com/attachments/916375412949528618/944137429613416498/wp10229060-dark-anime-icons-wallpapers.jpg', 'tag':'Gothic'},
@@ -29,19 +29,7 @@ icons1()
 function GlitchCore() {
   let aux = ""
     icons.forEach(value => {
-      if (value.tag == 'GlitchCore'){
-        aux += `
-      <li class="imgitem">
-        <img class="imglink" src="${value.link}">
-      </li>`
-      }
-    document.getElementsByClassName("images")[0].innerHTML = aux;
-    })}
-
-function Gothic() {
-  let aux = ""
-    icons.forEach(value => {
-      if (value.tag == 'Gothic'){
+      if (value.tag.includes("GlitchCore")){
         aux += `
       <li class="imgitem">
         <img class="imglink" src="${value.link}">
@@ -52,7 +40,18 @@ function Gothic() {
 function Cute() {
   let aux = ""
     icons.forEach(value => {
-      if (value.tag == 'Cute'){
+      if (value.tag.includes("Cute")){
+        aux += `
+      <li class="imgitem">
+        <img class="imglink" src="${value.link}">
+      </li>`
+      }
+    document.getElementsByClassName("images")[0].innerHTML = aux;
+    })}
+function Gothic() {
+  let aux = ""
+    icons.forEach(value => {
+      if (value.tag.includes("Gothic")){
         aux += `
       <li class="imgitem">
         <img class="imglink" src="${value.link}">

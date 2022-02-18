@@ -3,9 +3,11 @@
   margin: 0;
   font-family: Arial;
 }
+
 body{
   background-color: #696674;
 }
+
 header{
   cursor: pointer;
   text-align: center;
@@ -13,17 +15,34 @@ header{
   color:white;
   padding: 25px;
 }
+
 .tags{
   display: flex;
   list-style: none;
   padding: 10px;
   background-color: #3d3c44;
 }
+
 .tagitem{
   flex: 1;
   text-align: center;
 }
-.taglink{
+
+.taglinkGlitch{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #333238;
+}
+.taglinkCute{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #333238;
+}
+.taglinkGotchic{
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 20px;
@@ -31,19 +50,52 @@ header{
   background-color: #333238;
 }
 
-@keyframes color-rotate{
+@keyframes color-Glitch{
   from{
+      background-color: #333238;
       filter: hue-rotate(0deg);
   }
   to{
-      filter: hue-rotate(360deg);
+    background-color: rgb(0, 234, 255);
+      filter: hue-rotate(5555deg);
   }
 }
-.taglink:hover{
-  animation: color-rotate 5s;
+@keyframes color-Cute{
+  from{
+      background-color: #333238;
+  }
+  to{
+    background-color: rgb(255, 0, 170);
+  }
+}
+@keyframes color-Gothic{
+  from{
+      background-color: #333238;
+  }
+  to{
+    background-color: #2a0b38;
+  }
+}
+
+.taglinkGlitch:hover{
+  background-image: linear-gradient( to right, red, blue );
+  animation: color-Glitch 0.2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+.taglinkCute:hover{
+  background-color: rgb(255, 0, 170);
+  animation: color-Cute 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.taglinkGotchic:hover{
+
+  animation: color-Gothic 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .images{
   padding: 25px;
   list-style: none;
@@ -59,6 +111,7 @@ header{
   height: 256px;
   /*cursor: pointer;*/
 }
+
 .imgitem{
   padding: 5px;
 }
