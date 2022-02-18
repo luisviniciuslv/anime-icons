@@ -48,7 +48,7 @@ function Cute() {
         aux += `
         <a href="${value.link}" target="_blank"
         <li class="imgitem">
-          <img class="imglink" src="${value.link}">
+          <img class="imglink" src="${value.link}" alt="icons Cute">
         </li>
         </a>`
       }
@@ -67,4 +67,3 @@ function Gothic() {
       }
     document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
-
