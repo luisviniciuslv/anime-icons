@@ -19,7 +19,7 @@ icons = [
   {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944347118439632966/da211cf5639920f355188751c8ed85ec.jpg', 'tag':'Cute'},
   {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944347359083642990/original.jpg', 'tag':'Cute'},
   {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944347581394346064/632bc775395dc918cc5dda07293a9013.jpg', 'tag':'Gothic'},
-  // {'link':'', 'tag':''},
+  {'link':'https://cdn.discordapp.com/attachments/929539414810583111/944352568497291315/anime_aesthetic_kawaii_icon_358359057023203_by_kim_ashuri.jpg', 'tag':'GlitchCore'},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
