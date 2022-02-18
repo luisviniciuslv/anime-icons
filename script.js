@@ -19,9 +19,11 @@ function icons1() {
     let aux = ""
     icons.forEach(value => {
       aux += `
+      <a href="${value.link}" target="_blank"
       <li class="imgitem">
         <img class="imglink" src="${value.link}">
-      </li>`
+      </li>
+      </a>`
       document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
 icons1()
@@ -31,9 +33,11 @@ function GlitchCore() {
     icons.forEach(value => {
       if (value.tag.includes("GlitchCore")){
         aux += `
-      <li class="imgitem">
-        <img class="imglink" src="${value.link}">
-      </li>`
+        <a href="${value.link}" target="_blank"
+        <li class="imgitem">
+          <img class="imglink" src="${value.link}">
+        </li>
+        </a>`
       }
     document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
@@ -42,9 +46,11 @@ function Cute() {
     icons.forEach(value => {
       if (value.tag.includes("Cute")){
         aux += `
-      <li class="imgitem">
-        <img class="imglink" src="${value.link}">
-      </li>`
+        <a href="${value.link}" target="_blank"
+        <li class="imgitem">
+          <img class="imglink" src="${value.link}">
+        </li>
+        </a>`
       }
     document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
@@ -53,9 +59,12 @@ function Gothic() {
     icons.forEach(value => {
       if (value.tag.includes("Gothic")){
         aux += `
-      <li class="imgitem">
-        <img class="imglink" src="${value.link}">
-      </li>`
+        <a href="${value.link}" target="_blank"
+        <li class="imgitem">
+          <img class="imglink" src="${value.link}">
+        </li>
+        </a>`
       }
     document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
+
