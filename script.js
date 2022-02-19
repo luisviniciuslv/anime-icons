@@ -43,7 +43,10 @@ icons = [
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
 ]
-
+function soon()
+{
+alert("soon");
+}
 function icons1() {
     let aux = ""
     icons.forEach(value => {
