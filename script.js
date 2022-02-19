@@ -43,7 +43,7 @@ icons = [
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
 
-]
+] 
 function icons1() {
     let aux = ""
     icons.forEach(value => {
@@ -55,45 +55,18 @@ function icons1() {
       </a>`
       document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
-
 icons1()
 
-function GlitchCore() {
+function tag(tag) {
   let aux = ""
     icons.forEach(value => {
-      if (value.tag.includes("GlitchCore")){
+      if (value.tag.includes(tag)){
         aux += `
         <a href="${value.link}" target="_blank"
         <li class="imgitem">
           <img class="imglink" src="${value.link}">
         </li>
         </a>`
-      }
-    document.getElementsByClassName("images")[0].innerHTML = aux;
-    })}
-function Cute() {
-  let aux = ""
-    icons.forEach(value => {
-      if (value.tag.includes("Cute")){
-        aux += `
-        <a href="${value.link}" target="_blank"
-        <li class="imgitem">
-          <img class="imglink" src="${value.link}" alt="icons Cute">
-        </li>
-        </a>`
-      }
-    document.getElementsByClassName("images")[0].innerHTML = aux;
-    })}
-function Gothic() {
-  let aux = ""
-    icons.forEach(value => {
-      if (value.tag.includes("Gothic")){
-        aux += `
-        <a href="${value.link}" target="_blank"
-        <li class="imgitem">
-          <img class="imglink" src="${value.link}">
-        </li>
-        </a>`
-      }
+        }
     document.getElementsByClassName("images")[0].innerHTML = aux;
     })}
