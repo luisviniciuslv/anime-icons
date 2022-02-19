@@ -9,13 +9,22 @@ body{
 }
 
 header{
-  cursor: pointer;
-  text-align: center;
   background-color: #4a4852;
   color:white;
-  padding: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.logo{
+  cursor:pointer;
+}
+.profile{
+  cursor:pointer;
+}
+.upload{
+  cursor:pointer;
+}
 
 .tags{
   display: flex;

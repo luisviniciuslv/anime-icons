@@ -42,8 +42,8 @@ icons = [
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
   // {'link':'', 'tag':''},
+]
 
-] 
 function icons1() {
     let aux = ""
     icons.forEach(value => {
