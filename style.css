@@ -6,6 +6,7 @@
 
 body{
   background-color: #696674;
+  min-height: 20vh;
 }
 
 header{
@@ -18,12 +19,15 @@ header{
 
 .logo{
   cursor:pointer;
+  padding: 20px;
 }
 .profile{
   cursor:pointer;
+  padding: 20px;
 }
 .upload{
   cursor:pointer;
+  padding: 20px;
 }
 
 .tags{
