@@ -3,7 +3,7 @@ var xhttp = new XMLHttpRequest();
 xhttp.open("GET", url, false);
 xhttp.send();
 var icons = JSON.parse(xhttp.responseText)
-
+icons = icons.reverse()
 function icons1() {
     let aux = ""
     icons.forEach(value => {
@@ -25,10 +25,8 @@ function tag(tag) {
         <li class="imgitem">
           <img class="imglink" src="${value.link}">
         </li>
-        </a>`
-}
-
-document.getElementsByClassName("images")[0].innerHTML = aux;
+        </a>`}
+  document.getElementsByClassName("images")[0].innerHTML = aux;
 })}
 
 function soon()

@@ -12,9 +12,10 @@ body{
 header{
   background-color: #4a4852;
   color:white;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .logo{
@@ -128,4 +129,25 @@ header{
 
 .imgitem{
   padding: 5px;
+}
+
+footer{
+  text-align: center;
+  background-color: #54525f;
+  color: #fff;
+  width:100%;
+  padding:10px;
+  height: 55px;
+  position: fixed;
+  z-index: 9999999;
+  right: 0rem;
+  bottom: 0px;
+}
+
+.insta{
+  text-decoration: none;
+  color: rgb(217, 0, 255);
+}
+.mockContent {
+  height: 55px;
 }
