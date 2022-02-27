@@ -12,23 +12,56 @@ body{
 header{
   background-color: #4a4852;
   color:white;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .logo{
   cursor:pointer;
   padding: 20px;
+  font-size: 20px;
 }
 .profile{
   cursor:pointer;
   padding: 20px;
+  font-size: 20px;
 }
 .upload{
   cursor:pointer;
   padding: 20px;
+  font-size: 20px;
+}
+
+.inputnav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #3d3c44;
+
+}
+
+.inputtag{
+
+  font-size: 20px;
+  background-color: #3d3c44;
+  border-color: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  color:rgb(255, 255, 255);
+  padding: 5px 4px;
+}
+
+.buttonSubmit{
+  cursor:pointer;
+  background-color: #302f35;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  color:rgb(255, 255, 255);
+  padding: 5px 4px;
+  margin: 5px;
 }
 
 .tags{

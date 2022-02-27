@@ -17,7 +17,12 @@
     <h1 class="profile"  onclick="soon()">Profile</h1>
   </header>
 
-  <nav>
+  <nav class="inputnav">
+    <input class="inputtag" id="tagSearch" name="tagSearch" type="text" placeholder="" >
+    <input type="submit" class="buttonSubmit" value="Enviar" id="tagSearch"  onclick="searchTag()">
+  </nav>
+
+  <nav class="tagnav">
     <ul class="tags">
     <li class="tagitem">
       <a href="#" class="taglinkGlitch" onclick="tag('GlitchCore')">GlitchCore</a>
