@@ -43,7 +43,6 @@ header{
 }
 
 .inputtag{
-
   font-size: 20px;
   background-color: #3d3c44;
   border-color: #ffffff;
@@ -172,7 +171,7 @@ footer{
   padding:10px;
   height: 55px;
   position: fixed;
-  z-index: 9999999;
+  z-index: 9;
   right: 0rem;
   bottom: 0px;
 }
